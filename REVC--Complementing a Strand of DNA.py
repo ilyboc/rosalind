@@ -1,0 +1,2 @@
+data = "AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC"
+data[::-1].translate(str.maketrans({"T": "A", "A": "T", "G": "C", "C": "G"}))
